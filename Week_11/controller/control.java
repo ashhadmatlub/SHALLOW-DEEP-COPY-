@@ -47,7 +47,7 @@ public class control {
             // FOR LOOP
             // using for loop instead of iterator to check if it works or not
             for (int i = 0; i < array2.size(); i++) {
-                Int2 j = ((Int2) array2.get(i).clone());
+                Int2 j = ((Int2) array2.get(i));
                 j.increment();
                 array2.set(i, j);
             } // this loop successfully works
@@ -65,3 +65,4 @@ public class control {
         }
     }
 }
+
